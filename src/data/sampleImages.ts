@@ -38,7 +38,7 @@ export const SAMPLE_WASTE_ITEMS: SampleWasteItem[] = [
   {
     id: 'sample-compost',
     name: 'Organic Kitchen Scraps',
-    category: 'organic',
+    category: 'trash',
     description: 'Citrus peels, coffee grounds, and vegetable ends for composting.',
     imageUrl: COMPOST_IMAGE,
     aspectRatio: '4:3'
