@@ -1,0 +1,5 @@
+# Only needed on the machine where you TRAIN. Not deployed to Render.
+tensorflow==2.21.0
+scikit-learn==1.9.1
+numpy==2.5.4
+pillow==13.0.0

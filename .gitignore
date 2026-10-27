@@ -1,0 +1,45 @@
+# Node / frontend
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+
+# Secrets & local env (keep the .example files)
+.env
+.env.*
+!.env.example
+kaggle.json
+.kaggle/
+
+# Dataset (never commit; see docs/DATASET.md)
+backend/dataset/
+dataset/
+*.zip
+
+# Training outputs: keep only the deployable model + small metadata
+backend/models/*
+!backend/models/class_indices.json
+!backend/models/mobilenetv2_waste.keras
+!backend/models/evaluation_report.json
+!backend/models/run_info.json
+*.h5
+checkpoints/
+
+# Misc
+*.log
+.DS_Store
+tmp/
+temp/
+uploads/

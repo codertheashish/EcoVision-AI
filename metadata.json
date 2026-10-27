@@ -1,0 +1,6 @@
+{
+  "name": "EcoVision AI",
+  "description": "AI-powered waste classification and recycling recommendation system powered by deep learning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
