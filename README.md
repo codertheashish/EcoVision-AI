@@ -5,7 +5,7 @@ Waste image classification web app: **React + Vite + TypeScript + Tailwind** fro
 > **Status:** the code is complete and tested, but **no trained model is included in this repository**. Until you train one (steps below), the API starts, reports `model_loaded: false` and `/api/v1/predict` returns HTTP 503. There are no fake or heuristic predictions. The public website shows no accuracy figures; measured metrics live in the evaluation report after you train.
 
 ```
-ecovision-ai/
+EcoVision AI/
 ├── src/                 React app (pages, components, API service)
 ├── backend/
 │   ├── app/             FastAPI app (api, core config, ml preprocessing, services)
